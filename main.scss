@@ -1,0 +1,81 @@
+@use "./variables";
+@use "./components/card";
+@use "./components/button";
+@use "./components/searchBar";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: variables.$font;
+}
+
+body {
+  background-color: variables.$backBg;
+}
+
+.container {
+  background-color: variables.$frontBg;
+  display: flex;
+  margin: variables.$margin;
+  border-radius: variables.$cardRadius;
+  .left {
+    @extend %long-card;
+  }
+  .right {
+    width: 100vw;
+    margin: variables.$margin;
+    .searchBarDiv {
+      @extend %search-bar;
+    }
+    .cards {
+      display: flex;
+      justify-content: space-between;
+      .cards1 {
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-between;
+        width: 500px;
+        margin-right: variables.$margin;
+        .card1 {
+          @extend %square-card1;
+        }
+        .card2 {
+          @extend %square-card2;
+        }
+      }
+      .cards2 {
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-between;
+        width: 500px;
+        margin-right: variables.$margin;
+        .card3 {
+          @extend %square-card3;
+        }
+        .card4 {
+          @extend %square-card4;
+        }
+      }
+      .cards3 {
+        .card5 {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          width: 400px;
+          margin: variables.$margin 0;
+          box-shadow: variables.$shadowCard;
+          border-radius: variables.$cardRadius;
+          padding: 0.45rem 4.3rem;
+
+          background-color: white;
+          img {
+            width: 350px;
+          }
+        }
+        .card6 {
+          @extend %square-card6;
+        }
+      }
+    }
+  }
+}

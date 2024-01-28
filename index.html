@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/71978fcef7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <img clas="logo" src="./images/mainLogo.png" />
+        <div class="menuItems">
+          <div class="leftRow active dashboardTx">
+            <i class="fa-solid fa-table-cells-large"></i>
+            <h6>DASHBOARD</h6>
+          </div>
+          <div class="leftRow projectsTx">
+            <i class="fa-solid fa-briefcase"></i>
+            <h6>PROJECTS</h6>
+          </div>
+          <div class="leftRow taskTx">
+            <i class="fa-solid fa-bars"></i>
+            <h6>MY TASK</h6>
+          </div>
+          <div class="leftRow calendarTx">
+            <i class="fa-regular fa-calendar-days"></i>
+            <h6>CALENDAR</h6>
+          </div>
+          <div class="leftRow timeTx">
+            <i class="fa-regular fa-clock"></i>
+            <h6>TIME MANAGE</h6>
+          </div>
+          <div class="leftRow reportsTx">
+            <i class="fa-solid fa-chart-pie"></i>
+            <h6>REPORTS</h6>
+          </div>
+          <div class="leftRow settingsTx">
+            <i class="fa-solid fa-gear"></i>
+            <h6>SETTINGS</h6>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="searchBarDiv">
+          <!-- FIXME: add magnifying glass -->
+          <input type="search" placeholder=" Search" />
+          <div class="leftAreaSearch">
+            <i class="fa-regular fa-bell"></i>
+            <img src="./images/person1.jpg" />
+          </div>
+        </div>
+        <div class="cards">
+          <div class="cards1">
+            <div class="card1">
+              <div id="heading">
+                <div class="heading">
+                  <img src="./images/googleLogo.png" />
+                  <div class="headingText">
+                    <h2>Google</h2>
+                    <p>Google Inc.</p>
+                  </div>
+                </div>
+                <div class="icons">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+              <div class="buttons">
+                <button class="filled">SELECT PROGRESS</button>
+                <button class="regularBtn">HIGH PRIORITY</button>
+              </div>
+              <h4>Task Done: <span>25</span> / 50</h4>
+              <progress value="25" max="50">25%</progress>
+              <div class="buttons2">
+                <button class="filled ios">IOS APP</button>
+                <button class="filled ux">UI/UX</button>
+              </div>
+              <img src="./images/people.png" /><br />
+              <button class="dueDate">DUE DATE: 20 JUNE</button>
+            </div>
+            <div class="card2">
+              <div id="heading">
+                <div class="heading">
+                  <img src="./images/slackLogo.png" />
+                  <div class="headingText">
+                    <h2>Slack</h2>
+                    <p>Slack Corporation</p>
+                  </div>
+                </div>
+                <div class="icons">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+              <div class="buttons">
+                <button class="filled">COMPLETED</button>
+                <button class="regularBtn">MEDIUM PRIORITY</button>
+              </div>
+              <h4>Task Done: <span>30</span> / 30</h4>
+              <progress value="25" max="30"></progress>
+              <div class="buttons2">
+                <button class="filled ios">IOS APP</button>
+                <button class="filled ux">ANDROID</button>
+              </div>
+              <img src="./images/people.png" /><br />
+              <button class="dueDate">DUE DATE: 20 JUNE</button>
+            </div>
+          </div>
+          <div class="cards2">
+            <div class="card3">
+              <div class="heading">
+                <h2>My Tasks</h2>
+                <p>(05)</p>
+              </div>
+              <!-- FIXME:adjust row 3 + 7 -->
+              <div class="row">
+                <div class="number-name">
+                  <h5 class="number">01</h5>
+                  <h5 class="taskName">Create wireframe</h5>
+                </div>
+                <i class="fa-regular fa-circle-check"></i>
+              </div>
+              <div class="row">
+                <div class="number-name">
+                  <h5 class="number">02</h5>
+                  <h5 class="taskName">Slack Logo Design</h5>
+                </div>
+                <div class="comment-branch">
+                  <p>3</p>
+                  <i class="fa-regular fa-comment"></i>
+                  <div class="branch">
+                    <p>5</p>
+                    <i class="fa-solid fa-code-branch"></i>
+                  </div>
+                </div>
+                <i class="fa-regular fa-circle-check"></i>
+              </div>
+              <div class="row">
+                <div class="number-name">
+                  <h5 class="number">03</h5>
+                  <h5 class="taskName">Dashboard Design</h5>
+                </div>
+                <div class="comment-branch">
+                  <p>5</p>
+                  <i class="fa-solid fa-code-branch"></i>
+                </div>
+                <i class="fa-regular fa-circle-check"></i>
+              </div>
+              <div class="row">
+                <div class="number-name">
+                  <h5 class="number">04</h5>
+                  <h5 class="taskName">Create wireframe</h5>
+                </div>
+                <i class="fa-solid fa-circle-check fill"></i>
+              </div>
+              <div class="row">
+                <div class="number-name">
+                  <h5 class="number">05</h5>
+                  <h5 class="taskName">Google Logo design</h5>
+                </div>
+                <i class="fa-solid fa-circle-check fill"></i>
+              </div>
+              <div class="row">
+                <div class="number-name">
+                  <h5 class="number">06</h5>
+                  <h5 class="taskName">Slack Logo Design</h5>
+                </div>
+                <i class="fa-regular fa-circle-check"></i>
+              </div>
+              <div class="row">
+                <div class="number-name">
+                  <h5 class="number">07</h5>
+                  <h5 class="taskName">Dashboard Design</h5>
+                </div>
+                <div class="comment-branch">
+                  <p>5</p>
+                  <i class="fa-solid fa-code-branch"></i>
+                </div>
+                <i class="fa-regular fa-circle-check"></i>
+              </div>
+            </div>
+            <div class="card4">
+              <div class="heading">
+                <h2>Google</h2>
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <div class="firstRow">
+                <div class="task-watch">
+                  <i class="fa-solid fa-stopwatch"></i>
+                  <h5>Create Wireframe</h5>
+                </div>
+                <div class="time-icons">
+                  <h3>25m 20s</h3>
+
+                  <i class="fa-solid fa-pause"></i>
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+              <div class="heading">
+                <h2>Slack</h2>
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <div class="row">
+                <div class="task-watch">
+                  <i class="fa-solid fa-stopwatch"></i>
+                  <h5>Slack logo design</h5>
+                </div>
+                <div class="time-icons">
+                  <h3>30m 0s</h3>
+
+                  <i class="fa-solid fa-pause"></i>
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="task-watch">
+                  <i class="fa-solid fa-stopwatch"></i>
+                  <h5>Dashboard designs</h5>
+                </div>
+                <div class="time-icons">
+                  <h3>30m 0s</h3>
+
+                  <i class="fa-solid fa-pause"></i>
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="task-watch">
+                  <i class="fa-solid fa-stopwatch"></i>
+                  <h5>Create Wireframes</h5>
+                </div>
+                <div class="time-icons">
+                  <h3>30m 0s</h3>
+
+                  <i class="fa-solid fa-pause"></i>
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards3">
+            <div class="card5">
+              <img src="./images/calendar.png" />
+            </div>
+            <div class="card6">
+              <h2>Messages</h2>
+              <div class="personRow">
+                <img class="person1" src="./images/person1.jpg" />
+                <div class="text">
+                  <h4>Jenna Doe</h4>
+                  <p>Hi Angelina! How are you?</p>
+                </div>
+              </div>
+              <div class="personRow">
+                <img class="person2" src="./images/person2.jpg" />
+                <div class="text">
+                  <h4>Charmie</h4>
+                  <p>Do you need that design?</p>
+                </div>
+              </div>
+              <div class="personRow">
+                <img class="person3" src="./images/person3.jpg" />
+                <div class="text">
+                  <h4>Jass Mandela</h4>
+                  <p>What is the price hourly ...</p>
+                </div>
+              </div>
+              <div class="personRow">
+                <img class="person4" src="./images/person4.jpg" />
+                <div class="text">
+                  <h4>Charlie Chu</h4>
+                  <p>Awesome!!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
