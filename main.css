@@ -111,8 +111,6 @@
   background: none;
   font-weight: 600;
   font-size: 14px;
-  height: -moz-fit-content;
-  height: fit-content;
   text-align: center;
   border-color: #fd7b38;
   color: #fd7b38;
@@ -230,8 +228,6 @@
   background: none;
   font-weight: 600;
   font-size: 14px;
-  height: -moz-fit-content;
-  height: fit-content;
   text-align: center;
   border-color: #63b25b;
   color: #63b25b;
