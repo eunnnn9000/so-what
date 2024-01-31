@@ -2,7 +2,7 @@
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
   height: 1010px;
-  width: 250px;
+  width: 13%;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -33,10 +33,10 @@
 .container .left .active {
   background-color: #fff2ec;
   margin: 0;
-  padding-left: 13px;
-  width: 100%;
+  width: 101%;
 }
 .container .left .active i {
+  padding-left: 13px;
   color: #fd7b38;
 }
 .container .left .active h6 {
@@ -49,7 +49,6 @@
   margin: 13px 0;
   padding: 18px;
   border-radius: 15px;
-  max-width: 100%;
 }
 .container .right .cards .cards1 .card1 #heading {
   display: flex;
@@ -166,7 +165,6 @@
   margin: 13px 0;
   padding: 18px;
   border-radius: 15px;
-  max-width: 100%;
 }
 .container .right .cards .cards1 .card2 #heading {
   display: flex;
@@ -284,7 +282,6 @@
   margin: 13px 0;
   padding: 18px;
   border-radius: 15px;
-  max-width: 100%;
 }
 .container .right .cards .cards2 .card3 .heading {
   display: flex;
@@ -355,7 +352,6 @@
   margin: 13px 0;
   padding: 18px;
   border-radius: 15px;
-  max-width: 100%;
 }
 .container .right .cards .cards2 .card4 .heading {
   display: flex;
@@ -368,6 +364,7 @@
   border: 1px solid gray;
   padding: 0.5rem 0.7rem;
   border-radius: 4px;
+  margin: 0 0.2rem;
 }
 .container .right .cards .cards2 .card4 .firstRow {
   display: flex;
@@ -394,11 +391,10 @@
 }
 .container .right .cards .cards2 .card4 .firstRow .time-icons .fa-pause::before {
   color: white;
-  border: 1px solid gray;
-  padding: 0.5rem 0.7rem;
-  border-radius: 4px;
   background-color: #fd7b38;
   border: none;
+  padding: 0.6rem 0.8rem;
+  border-radius: 4px;
   margin: 0 18px;
 }
 .container .right .cards .cards2 .card4 .firstRow .time-icons .fa-ellipsis-vertical {
@@ -445,7 +441,7 @@
   margin: 13px 0;
   padding: 18px;
   border-radius: 15px;
-  width: 500px;
+  width: 93%;
 }
 .container .right .cards .cards3 .card6 .personRow {
   display: flex;
@@ -465,8 +461,8 @@
   border: 2px solid #212d2b;
 }
 .container .right .cards .cards3 .card6 .personRow img {
-  height: 80px;
-  width: 80px;
+  width: 75px;
+  width: 75px;
   border-radius: 50%;
   padding: 0.2rem;
 }
