@@ -527,6 +527,7 @@ body {
   display: flex;
   margin: 13px;
   border-radius: 15px;
+  padding: 18px;
 }
 .container .right {
   width: 100vw;
@@ -539,26 +540,29 @@ body {
 .container .right .cards .cards1 {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 33.5%;
   margin-right: 13px;
 }
 .container .right .cards .cards2 {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 33.3%;
   margin-right: 13px;
+}
+.container .right .cards .cards3 {
+  display: flex;
+  flex-direction: column;
+  width: 33.3%;
 }
 .container .right .cards .cards3 .card5 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 400px;
   margin: 13px 0;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
   border-radius: 15px;
-  padding: 0.45rem 4.3rem;
-  background-color: white;
 }
 .container .right .cards .cards3 .card5 img {
-  width: 350px;
+  height: 365px;
+  width: auto;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }/*# sourceMappingURL=main.css.map */
